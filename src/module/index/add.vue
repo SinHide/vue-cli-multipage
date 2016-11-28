@@ -75,6 +75,7 @@
   export default {
     data () {
       return {
+        addr: '杭州',
         userList: []
       }
     },
