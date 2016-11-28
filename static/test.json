@@ -1,0 +1,19 @@
+{
+  "status": 0,
+  "data": [
+    {
+      "username": "王伟",
+      "nickName": "monkeyWang",
+      "age": "***",
+      "addr": "杭州市余杭区",
+      "phone": "1566666666"
+    },
+    {
+      "username": "张三",
+      "nickName": "zhangsan",
+      "age": "***",
+      "addr": "杭州市西湖区",
+      "phone": "1899999999"
+    }
+  ]
+}

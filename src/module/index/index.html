@@ -2,23 +2,17 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>vue-cli-mulit index</title>
+  <meta charset="utf-8">
+  <title>vue-cli-mulit index</title>
 </head>
 
 <body>
-    <div id="index">
-        <ul>
-            <li>
-                <router-link to='/add'>add</router-link>
-            </li>
-            <li>
-                <router-link to='/list'>list</router-link>
-            </li>
-        </ul>
-        <router-view class="view"></router-view>
-    </div>
-    <!-- built files will be auto injected -->
+<div id="index">
+  <m-header></m-header>
+  <router-view></router-view>
+  <m-footer></m-footer>
+</div>
+<!-- built files will be auto injected -->
 </body>
 
 </html>
