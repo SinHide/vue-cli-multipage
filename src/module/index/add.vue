@@ -26,7 +26,7 @@
         {{user.username}}
         {{user.age}}
         {{user.addr}}
-        {{user.nickName}}
+        {{user.nickname}}
         <a @click="deleteItem(index)"> delete </a>
       </li>
     </ul>

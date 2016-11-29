@@ -4,6 +4,7 @@
       <a class="info" href="info.html">info</a>
       <router-link to="/foo">Add List</router-link>
       <router-link to="/bar">Show List</router-link>
+      <a @click="goNext"> > </a>
     </div>
   </div>
 </template>
@@ -23,18 +24,29 @@
       }
     }
     a{
-      width: 300px;
+      width: 220px;
       height: 50px;
       line-height: 50px;
       display: inline-block;
+      cursor: pointer;
     }
   }
 </style>
 <script>
   export default{
+    props: ['message'],
     data () {
       return {
-        msg: 'hello vue'
+        msg: 'hello vue',
+        index: 0
+      }
+    },
+    mounted: function () {
+      console.log(this.message);
+    },
+    methods: {
+      goNext: function () {
+        window.location.href = `/module/index.html#/${this.index++}`
       }
     }
   }

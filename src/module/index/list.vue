@@ -15,9 +15,9 @@
     height: 800px;
     font-size: 16px;
     ul{
-      text-align: left;
-      margin-top: 100px;
-    }
+       text-align: left;
+       margin-top: 100px;
+     }
   }
 </style>
 <script>
